@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tutorLoginPage">
+
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="163dp"
+        android:layout_height="172dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ict_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ICT Tutoring Services"
+        android:textColor="#066040"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageLogo" />
+
+
+    <TextView
+        android:id="@+id/tutorHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutor Login Page"
+        android:textColor="#066040"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etTutorEmail"
+        android:layout_width="349dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/shape_background"
+        android:drawableStart="@drawable/leaf_24"
+        android:drawablePadding="16dp"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:textColor="@color/grey_200"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subheading"/>
+
+    <EditText
+        android:id="@+id/etTutorPassword"
+        android:layout_width="349dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/shape_background"
+        android:drawableStart="@drawable/key_24"
+        android:drawablePadding="16dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColor="@color/grey_200"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etTutorEmail" />
+
+    <TextView
+        android:id="@+id/tutorRegisterText"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="5dp"
+        android:text="don't have an Account? Register"
+        android:textAlignment="center"
+        android:textColor="@color/dark_green_500"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTutorLogin"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnTutorLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/blue_button"
+        android:backgroundTint="#008000"
+        android:text="@string/log_in"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etTutorPassword" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

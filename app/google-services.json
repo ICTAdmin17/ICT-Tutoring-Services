@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1005641355175",
+    "firebase_url": "https://ict-tutoring-serivces-default-rtdb.firebaseio.com",
+    "project_id": "ict-tutoring-serivces",
+    "storage_bucket": "ict-tutoring-serivces.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005641355175:android:efc01d2805ff12004cb082",
+        "android_client_info": {
+          "package_name": "com.example.ict_tutoring_services"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxs9PNqRS0Jj0CFP-uWEORRJL1QzoiR2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

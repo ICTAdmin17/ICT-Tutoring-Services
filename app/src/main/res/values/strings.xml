@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ICT Tutoring Mobile</string>
+
+    <string name="log_in">Log in</string>
+    <string name="password">Password</string>
+    <string name="name">name</string>
+    <string name="surname">Last Name</string>
+    <string name="confirmPass">Confirm password</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="or">OR CONNECT WITH</string>
+    <string name="sign_in">Sign in</string>
+
+    <string name="facebook_app_id">526498191468722</string>
+    <string name="fb_login_protocol_scheme">fb526498191468722</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="Modules">
+        <item>Programming</item>
+        <item>Open source</item>
+        <item>Databases</item>
+        <item>Programing logic and Design</item>
+    </string-array>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".TutorFragment.tutorRatings">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001">
+
+        <ImageView
+            android:id="@+id/imageLogo"
+            android:layout_width="63dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ict_logo"/>
+
+        <TextView
+            android:id="@+id/subheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ratings Page "
+            android:layout_gravity="center_horizontal"
+            android:textColor="#066040"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/light_green_700"
+            android:padding="5dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="0dp"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="we seek to get the Highest Ratings as ICT tutoring services"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:fontFamily="sans-serif-smallcaps" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="800px"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/rating"/>
+
+        <TextView
+            android:layout_width="350sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_marginTop="10dp"
+            android:text="We seek to receive good ratings from our users world wild"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+
+        <TextView
+            android:layout_width="350sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="We believe in helping student using education"
+            android:textColor="#066040"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</FrameLayout>
